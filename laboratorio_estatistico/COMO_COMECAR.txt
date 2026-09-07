@@ -1,0 +1,22 @@
+PASSO A PASSO RÁPIDO
+
+1) Abra a pasta no VS Code.
+2) No terminal, rode:
+   python -m venv .venv
+3) Ative o ambiente:
+   Windows: .venv\Scripts\activate
+4) Instale:
+   pip install -r requirements.txt
+5) Teste:
+   pytest -q
+6) Rode:
+   streamlit run app.py
+7) Abra o endereço que o Streamlit mostrar no navegador.
+
+ANTES DE ENTREGAR:
+- Coloque nomes e matrículas no README e relatório.
+- Crie o GitHub/GitLab público.
+- Faça commits reais ao longo do desenvolvimento.
+- Adicione prints/GIF no README e relatório.
+- Grave o vídeo de 3 a 5 minutos.
+- Preencha os links finais no resumo e PDF de envio.
