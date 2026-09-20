@@ -128,4 +128,4 @@ Sugestão de divisão de commits:
 
 ## Capturas de tela
 
-![Aplicação funcionando](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/regressao.png)
+<img width="998" height="862" alt="regressao" src="https://github.com/user-attachments/assets/b604ae82-052e-45a2-8f83-7492800e7a29" />
