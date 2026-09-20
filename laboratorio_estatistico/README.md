@@ -129,20 +129,20 @@ Sugestão de divisão de commits:
 ## Capturas de tela
 
 ### Estatística descritiva
-![Estatística descritiva](laboratorio_estatistico/images/estatistica_descritiva_graficos.png)
+![Estatística descritiva](images/estatistica_descritiva_graficos.png)
 
 ### Probabilidade e simulação
-![Lei dos Grandes Números](laboratorio_estatistico/images/lgn.png)
+![Lei dos Grandes Números](images/lgn.png)
 
-![Teorema Central do Limite - parte 1](laboratorio_estatistico/images/tcl_parte1.png)
+![Teorema Central do Limite - parte 1](images/tcl_parte1.png)
 
-![Teorema Central do Limite - parte 2](laboratorio_estatistico/images/tcl_parte2.png)
+![Teorema Central do Limite - parte 2](images/tcl_parte2.png)
 
 ### Distribuições teóricas
-![Distribuições teóricas](laboratorio_estatistico/images/distribuicoes.png)
+![Distribuições teóricas](images/distribuicoes.png)
 
 ### Correlação e regressão
-![Regressão linear](laboratorio_estatistico/images/regressao.png)
+![Regressão linear](images/regressao.png)
 
 ### Descobertas
-![Descobertas](laboratorio_estatistico/images/descobertas.png)
+![Descobertas](images/descobertas.png)
