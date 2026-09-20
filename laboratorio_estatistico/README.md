@@ -126,6 +126,21 @@ Sugestão de divisão de commits:
 9. regressão/predição;
 10. documentação e ajustes finais.
 
-## Capturas de tela / GIF
+## Capturas de tela
 
-> Adicionar antes da entrega uma imagem ou GIF da aplicação funcionando.
+### Estatística descritiva
+![Estatística descritiva](images/estatistica_descritiva_graficos.png)
+
+### Probabilidade e simulação
+![Lei dos Grandes Números](images/lgn.png)
+
+![Teorema Central do Limite](images/tcl.png)
+
+### Distribuições teóricas
+![Distribuições teóricas](images/distribuicoes.png)
+
+### Correlação e regressão
+![Regressão linear](images/regressao.png)
+
+### Descobertas
+![Descobertas](images/descobertas.png)

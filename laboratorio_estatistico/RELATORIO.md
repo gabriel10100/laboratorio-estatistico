@@ -1,11 +1,9 @@
 # Relatório — Laboratório Estatístico Interativo
 
-> **Antes da entrega:** substituir os campos marcados como PREENCHER e inserir prints reais da aplicação.
-
 ## 1. Identificação
 
-- Grupo: **PREENCHER**
-- Integrantes e matrículas: **PREENCHER**
+- Grupo: **Gabriel**
+- Integrantes e matrículas: **72650463**
 
 ## 2. Dataset escolhido e justificativa
 
@@ -95,9 +93,9 @@ R^2=1-\frac{\sum(y_i-\hat{y}_i)^2}{\sum(y_i-\bar{y})^2}
 
 O arquivo `tests/test_minhastats.py` compara os resultados das funções próprias com referências de NumPy e SciPy, usando tolerância numérica de `1e-9`.
 
-**Resultado dos testes:** PREENCHER APÓS EXECUTAR `pytest -q`.
+**Resultado dos testes:** 12 testes executados com sucesso.
 
-**Print dos testes:** PREENCHER.
+**Print dos testes:** ver captura de tela abaixo.
 
 ## 5. Módulo 2 — Estatística descritiva
 
@@ -117,7 +115,21 @@ LI=Q_1-1,5\cdot IQR
 LS=Q_3+1,5\cdot IQR
 \]
 
-**Print e interpretação:** PREENCHER.
+**Print e interpretação:**  A variável `price` apresenta distribuição assimétrica à direita. 
+A média dos preços é aproximadamente 3932,80, enquanto a mediana é 2401,00, 
+indicando que valores elevados aumentam a média. O desvio padrão é aproximadamente 
+3989,44, demonstrando alta dispersão dos preços. Pela regra do IQR, foram identificados 
+3540 valores considerados outliers.
+
+![Estatística descritiva - gráficos](images/images_testes_pytest.png)
+
+![Estatística descritiva - gráficos](images/estatistica_descritiva_graficos.png)
+
+![Estatística descritiva - medidas](images/estatistica_descritiva_medidas.png)
+
+**Interpretação:** Foi observada forte correlação linear positiva entre `carat` e `price`, com coeficiente de Pearson de aproximadamente 0,9216. O valor de R² foi de aproximadamente 0,8493, indicando que cerca de 84,93% da variação observada no preço é explicada pelo modelo linear em função do peso em quilates. A inclinação positiva da reta mostra que, em média, o preço aumenta à medida que o valor de `carat` aumenta.
+
+![Correlação e regressão](images/regressao.png)
 
 ## 6. Módulo 3 — Probabilidade e simulação
 
@@ -129,7 +141,9 @@ Foram simulados lançamentos de uma moeda justa. À medida que o número de repe
 
 A aplicação sorteia repetidamente amostras de uma variável numérica do dataset, calcula suas médias com a função própria e exibe a distribuição dessas médias. O usuário controla tamanho da amostra e número de repetições.
 
-**Prints e discussão:** PREENCHER.
+**Discussão:** A simulação mostra que, ao realizar várias amostragens e calcular suas médias, a distribuição das médias amostrais tende a assumir um formato aproximadamente normal conforme o tamanho da amostra aumenta, ilustrando o Teorema Central do Limite.
+
+![Teorema Central do Limite](images/tcl.png)
 
 ## 7. Módulo 4 — Distribuições teóricas
 
@@ -137,7 +151,9 @@ A aplicação sobrepõe ao histograma a densidade Normal estimada usando a médi
 
 A comparação é visual e não deve ser interpretada como prova formal de aderência.
 
-**Print e discussão do ajuste:** PREENCHER.
+**Discussão do ajuste:** A sobreposição das curvas teóricas ao histograma permite comparar visualmente o comportamento dos dados com distribuições conhecidas. A análise apresentada é exploratória e visual, servindo para observar o grau de aproximação entre a distribuição empírica e os modelos teóricos, sem caracterizar um teste formal de aderência.
+
+![Distribuições teóricas](images/distribuicoes.png)
 
 ## 8. Módulo 5 — Correlação e regressão linear
 
@@ -145,7 +161,16 @@ O usuário escolhe duas variáveis numéricas. A aplicação calcula a correlaç
 
 **Exemplo recomendado:** usar `carat` como X e `price` como Y.
 
-**Print, equação e interpretação:** PREENCHER.
+**Print, equação e interpretação:** 
+**Equação da regressão:**
+
+\[
+\hat{Y} = -2256,3606 + 7756,4256X
+\]
+
+**Interpretação:** Foi observada forte correlação linear positiva entre `carat` e `price`, com coeficiente de Pearson de aproximadamente 0,9216. O valor de R² foi de aproximadamente 0,8493, indicando que cerca de 84,93% da variação observada no preço é explicada pelo modelo linear em função do peso em quilates. A inclinação positiva da reta mostra que, em média, o preço aumenta à medida que o valor de `carat` aumenta.
+
+![Correlação e regressão](images/regressao.png)
 
 > Correlação não implica causalidade.
 
@@ -153,9 +178,13 @@ O usuário escolhe duas variáveis numéricas. A aplicação calcula a correlaç
 
 A aplicação possui uma página que calcula automaticamente três destaques. Antes da entrega, executem o programa e tragam para este relatório os valores exibidos, explicando o significado deles.
 
-1. Maior correlação linear em módulo: **PREENCHER**.
-2. Variável com maior coeficiente de variação: **PREENCHER**.
-3. Categoria mais frequente: **PREENCHER**.
+1. Maior correlação linear em módulo:  `carat × x`, com r = 0,9751.
+2. Variável com maior coeficiente de variação:  `price`, com CV = 101,44%.
+3. Categoria mais frequente: em `cut`, a categoria `Ideal`, representando 39,95% dos registros.
+
+Esses resultados indicam que o peso em quilates (`carat`) possui forte relação linear com a dimensão `x` do diamante. A variável `price` apresenta elevada dispersão relativa, mostrando grande heterogeneidade nos preços. Além disso, a categoria `Ideal` é a classificação de corte mais comum no conjunto de dados.
+
+![Relatório de descobertas](images/descobertas.png)
 
 ## 10. Conclusão
 
