@@ -129,20 +129,20 @@ Sugestão de divisão de commits:
 ## Capturas de tela
 
 ### Estatística descritiva
-![Estatística descritiva](images/estatistica_descritiva_graficos.png)
+![Estatística descritiva](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/estatistica_descritiva_graficos.png)
 
 ### Probabilidade e simulação
-![Lei dos Grandes Números](images/lgn.png)
+![Lei dos Grandes Números](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/lgn.png)
 
-![Teorema Central do Limite - parte 1](images/tcl_parte1.png)
+![Teorema Central do Limite - parte 1](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/tcl_parte1.png)
 
-![Teorema Central do Limite - parte 2](images/tcl_parte2.png)
+![Teorema Central do Limite - parte 2](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/tcl_parte2.png)
 
 ### Distribuições teóricas
-![Distribuições teóricas](images/distribuicoes.png)
+![Distribuições teóricas](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/distribuicoes.png)
 
 ### Correlação e regressão
-![Regressão linear](images/regressao.png)
+![Regressão linear](https://raw.githubusercontent.com/gabriel10100/laboratorio-estatistico/main/laboratorio_estatistico/images/regressao.png)
 
 ### Descobertas
 ![Descobertas](images/descobertas.png)]
