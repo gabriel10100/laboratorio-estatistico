@@ -14,14 +14,14 @@ A aplicação inclui estatística descritiva, detecção de outliers pelo IQR, s
 
 ## Três principais descobertas
 
-> Copiar da página "6 — Descobertas" da aplicação antes da entrega e explicar em uma frase cada uma.
+1. A maior correlação linear em módulo foi entre `carat` e `x`, com r = 0,9751, indicando uma relação linear positiva muito forte entre o peso do diamante e sua dimensão x.
 
-1. **PREENCHER**
-2. **PREENCHER**
-3. **PREENCHER**
+2. A variável `price` apresentou o maior coeficiente de variação, com CV = 101,44%, mostrando grande dispersão relativa dos preços.
+
+3. Na variável categórica `cut`, a categoria mais frequente foi `Ideal`, representando 39,95% dos registros.
 
 ## Links finais
 
 - Dataset original: https://github.com/tidyverse/ggplot2/blob/main/data-raw/diamonds.csv
-- Repositório da solução: **PREENCHER**
-- Vídeo de demonstração: **PREENCHER**
+- Repositório da solução: https://github.com/gabriel10100/laboratorio-estatistico
+- Vídeo de demonstração: (https://youtu.be/UZOnp_o4bXU)
