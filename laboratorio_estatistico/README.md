@@ -145,4 +145,4 @@ Sugestão de divisão de commits:
 ![Regressão linear](images/regressao.png)
 
 ### Descobertas
-![Descobertas](images/descobertas.png)
+![Descobertas](images/descobertas.png)]
